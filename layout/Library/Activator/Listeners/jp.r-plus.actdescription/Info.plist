@@ -1,0 +1,5 @@
+{
+	title = "ActDescription";
+	description = "output recursive log";
+	"compatible-modes" = ("application");
+}
