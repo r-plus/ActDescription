@@ -6,4 +6,4 @@ Architecture: iphoneos-arm
 Description: An awesome MobileSubstrate tweak!
 Maintainer: r_plus
 Author: r_plus
-Section: Tweaks
+Section: Development
