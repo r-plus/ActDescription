@@ -6,6 +6,6 @@ TWEAK_NAME = ActDescription
 ActDescription_FILES = Tweak.mm
 ActDescription_FRAMEWORKS = UIKit
 ActDescription_LIBRARIES = activator
-ActDescription_CFLAGS = -fobjc-arc
+# ActDescription_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/tweak.mk

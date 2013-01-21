@@ -41,7 +41,7 @@ static void DidEnterBackgroundNotificationReceived(CFNotificationCenterRef cente
 {
   @autoreleasepool {
     if (LASharedActivator.runningInsideSpringBoard) {
-      ActDescription *listener = [[self alloc] init];
+      ActDescription *listener = [[ActDescription alloc] init];
       [LASharedActivator registerListener:listener forName:@kActivatorAction];
     } else {
       CFNotificationCenterRef local = CFNotificationCenterGetLocalCenter();
